@@ -3,7 +3,7 @@ import "./App.css"
 import  Card from"./Card"
 import SearchIcon from "./search.svg"
 
-const API_URL = "http://www.omdbapi.com?apikey=b3ee82b4"
+const API_URL = "https://www.omdbapi.com?apikey=b3ee82b4"
 
 const App = () =>{
     const [searchTitle,setSearchTitle] = useState("")
