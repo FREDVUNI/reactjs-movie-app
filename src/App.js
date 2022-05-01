@@ -15,7 +15,7 @@ const App = () =>{
     }
 
     const getMovies = async (title) =>{
-        let response = await fetch(`${API_URL}&s=${title}`)
+        let response = await fetch(`${API_URL}&s=${title}`,{mode: 'cors'})
         let data = await response.json()
         setMovies(data.Search)
     }
