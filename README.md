@@ -4,8 +4,8 @@ This is a React app that allows users to search for movies using the OMDB API. I
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/react-movie-search-app.git`
-2. Navigate to the project directory: `cd react-movie-search-app`
+1. Clone the repository: `git clone https://github.com/FREDVUNI/react-movie-app.git`
+2. Navigate to the project directory: `cd react-movie-app`
 3. Install dependencies: `npm install`
 4. Create a `.env` file by copying `.env.example` and adding your own API key for the OMDB API: `cp .env.example .env` 
 5. Start the development server: `npm start`
